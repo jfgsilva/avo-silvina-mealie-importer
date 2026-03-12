@@ -1,0 +1,34 @@
+{
+  "name": "Cozido à Portuguesa",
+  "description": "Portugal's grand boiled dinner — a slow-cooked pot of meats, sausages, vegetables, and chickpeas.",
+  "orgURL": "https://en.wikipedia.org/wiki/Cozido_%C3%A0_portuguesa",
+  "recipeYield": "8 servings",
+  "recipeServings": 8,
+  "prepTime": "PT30M",
+  "cookTime": "PT3H",
+  "totalTime": "PT3H30M",
+  "recipeCategory": [{"name": "Portuguese", "slug": "portuguese"}],
+  "tags": [{"name": "stew", "slug": "stew"}, {"name": "traditional", "slug": "traditional"}, {"name": "pork", "slug": "pork"}],
+  "recipeIngredient": [
+    {"display": "500g beef chuck, in one piece"},
+    {"display": "400g pork ribs"},
+    {"display": "1 whole chouriço"},
+    {"display": "1 morcela (blood sausage)"},
+    {"display": "200g smoked bacon"},
+    {"display": "400g canned chickpeas, drained"},
+    {"display": "4 medium potatoes, peeled"},
+    {"display": "4 carrots, halved"},
+    {"display": "½ savoy cabbage, quartered"},
+    {"display": "4 turnips, halved"},
+    {"display": "300g couve-galega (kale), roughly chopped"},
+    {"display": "Salt to taste"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Place beef and pork ribs in a large pot, cover with cold water, and bring to a boil. Skim foam, then simmer for 1 hour.", "ingredientReferences": []},
+    {"title": "", "text": "Add chouriço, morcela, and bacon. Continue cooking for 45 minutes.", "ingredientReferences": []},
+    {"title": "", "text": "Add potatoes, carrots, turnips, and chickpeas. Cook for 20 minutes.", "ingredientReferences": []},
+    {"title": "", "text": "Add cabbage and kale. Cook for a further 15 minutes until all vegetables are tender.", "ingredientReferences": []},
+    {"title": "", "text": "Remove everything and slice the meats. Serve on a large platter with the vegetables and broth alongside for dipping.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Serving tradition", "text": "Cozido is traditionally served in courses: first the broth as soup, then the meats and vegetables."}]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Bacalhau à Brás",
+  "description": "A classic Portuguese dish of shredded salt cod with eggs, thin-cut fried potatoes, and olives.",
+  "orgURL": "https://en.wikipedia.org/wiki/Bacalhau_%C3%A0_Br%C3%A1s",
+  "recipeYield": "4 servings",
+  "recipeServings": 4,
+  "prepTime": "PT30M",
+  "cookTime": "PT20M",
+  "totalTime": "PT50M",
+  "recipeCategory": [{"name": "Portuguese", "slug": "portuguese"}],
+  "tags": [{"name": "traditional", "slug": "traditional"}, {"name": "seafood", "slug": "seafood"}],
+  "recipeIngredient": [
+    {"display": "500g salt cod (bacalhau), soaked 24h and shredded"},
+    {"display": "300g thin straw potatoes (palha), fried"},
+    {"display": "6 eggs, lightly beaten"},
+    {"display": "2 medium onions, thinly sliced"},
+    {"display": "3 garlic cloves, minced"},
+    {"display": "80ml olive oil"},
+    {"display": "Black olives, to garnish"},
+    {"display": "Fresh parsley, chopped"},
+    {"display": "Salt and pepper to taste"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Soak the salt cod in cold water for 24 hours, changing the water 3–4 times. Drain, remove skin and bones, and shred finely.", "ingredientReferences": []},
+    {"title": "", "text": "Heat olive oil in a large frying pan over medium heat. Sauté the onion and garlic until soft and golden, about 8 minutes.", "ingredientReferences": []},
+    {"title": "", "text": "Add the shredded cod and stir well. Cook for 5 minutes.", "ingredientReferences": []},
+    {"title": "", "text": "Add the straw potatoes and toss to combine. Pour in the beaten eggs and stir continuously over low heat until just set but still creamy.", "ingredientReferences": []},
+    {"title": "", "text": "Season with pepper (salt is usually not needed). Garnish with black olives and parsley. Serve immediately.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Tip", "text": "The eggs should be barely cooked — remove from heat while still slightly runny as they continue to cook from residual heat."}]
+}

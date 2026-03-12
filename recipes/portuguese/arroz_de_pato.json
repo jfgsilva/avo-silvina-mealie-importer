@@ -1,0 +1,32 @@
+{
+  "name": "Arroz de Pato",
+  "description": "Portuguese duck rice — slow-braised duck cooked with wine and spices, then baked with rice, chouriço, and bacon.",
+  "orgURL": "https://en.wikipedia.org/wiki/Arroz_de_pato",
+  "recipeYield": "4 servings",
+  "recipeServings": 4,
+  "prepTime": "PT20M",
+  "cookTime": "PT2H",
+  "totalTime": "PT2H20M",
+  "recipeCategory": [{"name": "Portuguese", "slug": "portuguese"}],
+  "tags": [{"name": "rice", "slug": "rice"}, {"name": "duck", "slug": "duck"}, {"name": "traditional", "slug": "traditional"}],
+  "recipeIngredient": [
+    {"display": "1 whole duck (about 2kg), cut into pieces"},
+    {"display": "300g long-grain white rice"},
+    {"display": "150g chouriço, sliced"},
+    {"display": "100g smoked bacon, diced"},
+    {"display": "1 large onion, quartered"},
+    {"display": "2 carrots, halved"},
+    {"display": "1 bay leaf"},
+    {"display": "200ml dry white wine"},
+    {"display": "Salt and pepper to taste"},
+    {"display": "Olive oil"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Place duck pieces in a large pot with onion, carrots, bay leaf, and wine. Cover with water, season, and simmer for 90 minutes until the duck is very tender.", "ingredientReferences": []},
+    {"title": "", "text": "Remove duck pieces and shred the meat from the bones. Strain the broth and reserve.", "ingredientReferences": []},
+    {"title": "", "text": "Measure the broth and cook the rice in it (2 parts broth to 1 part rice) until just under-done.", "ingredientReferences": []},
+    {"title": "", "text": "Preheat oven to 200°C. In an oven dish, layer half the rice, all the shredded duck, then the remaining rice. Top with chouriço and bacon slices.", "ingredientReferences": []},
+    {"title": "", "text": "Bake uncovered for 20–25 minutes until the top is golden and slightly crispy. Serve hot.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Make-ahead", "text": "The duck can be braised a day ahead — the flavours deepen overnight."}]
+}

@@ -1,0 +1,52 @@
+cuisine: portuguese
+recipes:
+  - url: https://foodfromportugal.com/recipes/caldo-verde/
+    note: "Classic kale soup"
+  - url: https://foodfromportugal.com/recipes/bacalhau-a-bras/
+    note: "Shredded salt cod with eggs and potatoes"
+  - url: https://foodfromportugal.com/recipes/pasteis-de-nata/
+    note: "Custard tarts"
+  - url: https://foodfromportugal.com/recipes/arroz-de-pato/
+    note: "Duck rice"
+  - url: https://foodfromportugal.com/recipes/cozido-a-portuguesa/
+    note: "Portuguese boiled dinner"
+  - url: https://foodfromportugal.com/recipes/cataplana-de-marisco/
+    note: "Shellfish cataplana"
+  - url: https://foodfromportugal.com/recipes/francesinha/
+    note: "Porto sandwich"
+  - url: https://foodfromportugal.com/recipes/acorda-de-mariscos/
+    note: "Seafood bread soup"
+  - url: https://foodfromportugal.com/recipes/piri-piri-chicken/
+    note: "Piri piri grilled chicken"
+  - url: https://foodfromportugal.com/recipes/bifanas/
+    note: "Pork sandwiches"
+  - url: https://foodfromportugal.com/recipes/amêijoas-a-bulhao-pato/
+    note: "Clams in garlic-coriander sauce"
+  - url: https://foodfromportugal.com/recipes/sardinha-assada/
+    note: "Grilled sardines"
+  - url: https://foodfromportugal.com/recipes/sopa-de-peixe/
+    note: "Fish soup"
+  - url: https://foodfromportugal.com/recipes/lombo-de-porco/
+    note: "Roast pork loin"
+  - url: https://foodfromportugal.com/recipes/rabanadas/
+    note: "Portuguese French toast"
+  - url: https://foodfromportugal.com/recipes/arroz-doce/
+    note: "Rice pudding"
+  - url: https://foodfromportugal.com/recipes/bolo-de-mel/
+    note: "Molasses cake"
+  - url: https://foodfromportugal.com/recipes/serradura/
+    note: "Sawdust pudding"
+  - url: https://foodfromportugal.com/recipes/bica/
+    note: "Espresso preparation guide"
+  - url: https://foodfromportugal.com/recipes/favas-com-chourico/
+    note: "Broad beans with chorizo"
+  - url: https://foodfromportugal.com/recipes/carne-de-porco-a-alentejana/
+    note: "Pork with clams, Alentejo style"
+  - url: https://foodfromportugal.com/recipes/bolo-de-bolacha/
+    note: "Biscuit cake"
+  - url: https://foodfromportugal.com/recipes/polvo-a-lagareiro/
+    note: "Octopus with olive oil and potatoes"
+  - url: https://foodfromportugal.com/recipes/sopa-de-grao/
+    note: "Chickpea soup"
+  - url: https://foodfromportugal.com/recipes/migas/
+    note: "Bread migas"

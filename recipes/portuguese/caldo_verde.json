@@ -1,0 +1,30 @@
+{
+  "name": "Caldo Verde",
+  "description": "Portugal's beloved kale soup with chouriço, potato, and olive oil — a national comfort food.",
+  "orgURL": "https://en.wikipedia.org/wiki/Caldo_verde",
+  "recipeYield": "6 servings",
+  "recipeServings": 6,
+  "prepTime": "PT15M",
+  "cookTime": "PT35M",
+  "totalTime": "PT50M",
+  "recipeCategory": [{"name": "Portuguese", "slug": "portuguese"}],
+  "tags": [{"name": "soup", "slug": "soup"}, {"name": "traditional", "slug": "traditional"}],
+  "recipeIngredient": [
+    {"display": "1kg floury potatoes, peeled and diced"},
+    {"display": "1 large onion, chopped"},
+    {"display": "3 garlic cloves, crushed"},
+    {"display": "60ml extra-virgin olive oil"},
+    {"display": "200g chouriço, sliced"},
+    {"display": "300g couve-galega (Galician kale) or cavolo nero, very finely shredded"},
+    {"display": "1.5L water"},
+    {"display": "Salt and pepper to taste"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Heat 40ml of the olive oil in a large pot. Sauté onion and garlic over medium heat until soft, about 5 minutes.", "ingredientReferences": []},
+    {"title": "", "text": "Add potatoes, chouriço slices, and water. Season with salt. Bring to a boil, reduce heat, and simmer until potatoes are very tender, about 20 minutes.", "ingredientReferences": []},
+    {"title": "", "text": "Remove the chouriço slices and set aside. Purée the soup until completely smooth with a stick blender or in batches.", "ingredientReferences": []},
+    {"title": "", "text": "Return soup to medium heat, add the shredded kale, and simmer for 5 minutes until just tender but still bright green.", "ingredientReferences": []},
+    {"title": "", "text": "Return chouriço to the pot. Drizzle with remaining olive oil. Adjust seasoning and serve hot.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Kale tip", "text": "Shred the kale as finely as possible (chiffonade style) — this is the key texture of an authentic caldo verde."}]
+}

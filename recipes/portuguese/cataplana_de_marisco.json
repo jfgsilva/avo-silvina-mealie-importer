@@ -1,0 +1,35 @@
+{
+  "name": "Cataplana de Marisco",
+  "description": "An Algarvian shellfish stew cooked in a traditional copper cataplana — a fragrant one-pot celebration of the sea.",
+  "orgURL": "https://en.wikipedia.org/wiki/Cataplana",
+  "recipeYield": "4 servings",
+  "recipeServings": 4,
+  "prepTime": "PT20M",
+  "cookTime": "PT30M",
+  "totalTime": "PT50M",
+  "recipeCategory": [{"name": "Portuguese", "slug": "portuguese"}],
+  "tags": [{"name": "seafood", "slug": "seafood"}, {"name": "algarve", "slug": "algarve"}, {"name": "traditional", "slug": "traditional"}],
+  "recipeIngredient": [
+    {"display": "500g clams, cleaned"},
+    {"display": "500g mussels, cleaned and debearded"},
+    {"display": "300g large prawns, shell-on"},
+    {"display": "200g chouriço, sliced"},
+    {"display": "2 medium onions, sliced"},
+    {"display": "4 garlic cloves, sliced"},
+    {"display": "2 tomatoes, diced"},
+    {"display": "1 red pepper, sliced"},
+    {"display": "100ml dry white wine"},
+    {"display": "60ml olive oil"},
+    {"display": "1 tsp sweet paprika"},
+    {"display": "Fresh coriander, to garnish"},
+    {"display": "Salt and pepper to taste"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Heat olive oil in the cataplana (or a wide heavy-based pot with a lid). Sauté onion and garlic until soft.", "ingredientReferences": []},
+    {"title": "", "text": "Add chouriço, red pepper, tomatoes, and paprika. Cook for 5 minutes, stirring.", "ingredientReferences": []},
+    {"title": "", "text": "Pour in wine. Add clams, mussels, and prawns. Season with salt and pepper.", "ingredientReferences": []},
+    {"title": "", "text": "Close the cataplana and cook over medium-high heat for 8–10 minutes, shaking occasionally, until all shellfish have opened.", "ingredientReferences": []},
+    {"title": "", "text": "Discard any shellfish that haven't opened. Garnish with coriander and serve straight from the cataplana with crusty bread.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Equipment", "text": "A traditional copper cataplana gives the best results, but a deep lidded sauté pan works too."}]
+}

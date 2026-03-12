@@ -1,0 +1,31 @@
+{
+  "name": "Tabbouleh",
+  "description": "Lebanese bulgur wheat salad with mountains of fresh parsley, mint, tomato, and lemon — a bright, herbaceous classic.",
+  "orgURL": "https://en.wikipedia.org/wiki/Tabbouleh",
+  "recipeYield": "4 servings",
+  "recipeServings": 4,
+  "prepTime": "PT20M",
+  "cookTime": "PT0M",
+  "totalTime": "PT30M",
+  "recipeCategory": [{"name": "Mediterranean", "slug": "mediterranean"}],
+  "tags": [{"name": "salad", "slug": "salad"}, {"name": "vegan", "slug": "vegan"}, {"name": "lebanese", "slug": "lebanese"}],
+  "recipeIngredient": [
+    {"display": "80g fine bulgur wheat"},
+    {"display": "100ml boiling water"},
+    {"display": "4 large bunches flat-leaf parsley (about 200g leaves), very finely chopped"},
+    {"display": "1 bunch fresh mint (about 30g leaves), finely chopped"},
+    {"display": "3 ripe tomatoes, finely diced"},
+    {"display": "4 spring onions, very finely sliced"},
+    {"display": "Juice of 2 lemons"},
+    {"display": "60ml extra-virgin olive oil"},
+    {"display": "Salt to taste"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Pour boiling water over the bulgur, cover, and leave for 10 minutes to absorb. Fluff with a fork and allow to cool.", "ingredientReferences": []},
+    {"title": "", "text": "Combine parsley, mint, tomatoes, and spring onions in a large bowl.", "ingredientReferences": []},
+    {"title": "", "text": "Add the cooled bulgur, lemon juice, and olive oil. Toss well.", "ingredientReferences": []},
+    {"title": "", "text": "Season generously with salt. Taste and adjust lemon and oil as needed.", "ingredientReferences": []},
+    {"title": "", "text": "Rest for 10 minutes before serving to let flavours meld.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Herb ratio", "text": "Authentic tabbouleh is predominantly parsley — the bulgur is a garnish, not the base."}]
+}

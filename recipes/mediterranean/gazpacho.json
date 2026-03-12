@@ -1,0 +1,32 @@
+{
+  "name": "Gazpacho",
+  "description": "Andalusian chilled tomato soup — blended raw vegetables served ice-cold, perfect for hot summer days.",
+  "orgURL": "https://en.wikipedia.org/wiki/Gazpacho",
+  "recipeYield": "4 servings",
+  "recipeServings": 4,
+  "prepTime": "PT15M",
+  "cookTime": "PT0M",
+  "totalTime": "PT2H15M",
+  "recipeCategory": [{"name": "Mediterranean", "slug": "mediterranean"}],
+  "tags": [{"name": "soup", "slug": "soup"}, {"name": "vegan", "slug": "vegan"}, {"name": "cold", "slug": "cold"}],
+  "recipeIngredient": [
+    {"display": "1kg ripe tomatoes, roughly chopped"},
+    {"display": "1 cucumber, peeled and roughly chopped"},
+    {"display": "1 red pepper, deseeded and chopped"},
+    {"display": "1 small red onion, roughly chopped"},
+    {"display": "2 garlic cloves"},
+    {"display": "100ml extra-virgin olive oil"},
+    {"display": "3 tbsp sherry vinegar"},
+    {"display": "100ml cold water"},
+    {"display": "Salt to taste"},
+    {"display": "Ice cubes, to serve"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Combine tomatoes, cucumber, pepper, onion, and garlic in a blender. Blend until completely smooth.", "ingredientReferences": []},
+    {"title": "", "text": "With the blender running, drizzle in the olive oil to emulsify. Add vinegar and water.", "ingredientReferences": []},
+    {"title": "", "text": "Season well with salt. Blend again and taste — adjust vinegar and salt as needed.", "ingredientReferences": []},
+    {"title": "", "text": "Strain through a fine-mesh sieve for a silky texture. Refrigerate for at least 2 hours.", "ingredientReferences": []},
+    {"title": "", "text": "Serve chilled with ice cubes and drizzle with extra olive oil.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Best tomatoes", "text": "Use the ripest, most flavourful tomatoes you can find — this makes or breaks the soup."}]
+}

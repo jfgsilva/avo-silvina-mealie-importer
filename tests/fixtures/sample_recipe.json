@@ -1,0 +1,12 @@
+{
+  "name": "Test Soup",
+  "description": "A simple test recipe.",
+  "orgURL": "https://example.com/test-soup",
+  "recipeYield": "2 servings",
+  "recipeServings": 2,
+  "recipeCategory": [{"name": "Test", "slug": "test"}],
+  "tags": [],
+  "recipeIngredient": [{"display": "1 cup water"}],
+  "recipeInstructions": [{"title": "", "text": "Boil water.", "ingredientReferences": []}],
+  "notes": []
+}

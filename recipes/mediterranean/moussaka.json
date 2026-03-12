@@ -1,0 +1,39 @@
+{
+  "name": "Moussaka",
+  "description": "Greek layered casserole of spiced minced lamb, sliced aubergine, and thick béchamel — rich and deeply satisfying.",
+  "orgURL": "https://en.wikipedia.org/wiki/Moussaka",
+  "recipeYield": "6 servings",
+  "recipeServings": 6,
+  "prepTime": "PT45M",
+  "cookTime": "PT1H",
+  "totalTime": "PT1H45M",
+  "recipeCategory": [{"name": "Mediterranean", "slug": "mediterranean"}],
+  "tags": [{"name": "greek", "slug": "greek"}, {"name": "lamb", "slug": "lamb"}, {"name": "baked", "slug": "baked"}],
+  "recipeIngredient": [
+    {"display": "2 large aubergines, sliced 1cm thick"},
+    {"display": "600g minced lamb"},
+    {"display": "2 onions, finely chopped"},
+    {"display": "4 garlic cloves, minced"},
+    {"display": "400g can chopped tomatoes"},
+    {"display": "2 tbsp tomato purée"},
+    {"display": "1 tsp ground cinnamon"},
+    {"display": "½ tsp allspice"},
+    {"display": "100ml red wine"},
+    {"display": "Olive oil"},
+    {"display": "60g butter"},
+    {"display": "60g plain flour"},
+    {"display": "600ml whole milk"},
+    {"display": "2 egg yolks"},
+    {"display": "Pinch of nutmeg"},
+    {"display": "50g Parmesan or Kefalotiri, grated"},
+    {"display": "Salt and pepper to taste"}
+  ],
+  "recipeInstructions": [
+    {"title": "Aubergine", "text": "Brush aubergine slices with olive oil, season, and grill or roast at 200°C for 20 minutes until golden and tender.", "ingredientReferences": []},
+    {"title": "Meat sauce", "text": "Fry onion and garlic until soft. Add lamb and brown well. Add wine, tomatoes, purée, cinnamon, and allspice. Simmer 20 minutes until thick. Season.", "ingredientReferences": []},
+    {"title": "Béchamel", "text": "Melt butter, whisk in flour, and cook 1 minute. Gradually add milk, whisking until thick. Off heat, beat in egg yolks, nutmeg, and half the cheese.", "ingredientReferences": []},
+    {"title": "Assembly", "text": "Preheat oven to 180°C. Layer half the aubergine in a large baking dish, add all the meat sauce, then remaining aubergine. Pour béchamel over the top and scatter with remaining cheese.", "ingredientReferences": []},
+    {"title": "", "text": "Bake for 45 minutes until golden and bubbling. Rest 15 minutes before serving.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Make ahead", "text": "Moussaka reheats beautifully and is often better the next day."}]
+}

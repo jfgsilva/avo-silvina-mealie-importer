@@ -1,0 +1,34 @@
+{
+  "name": "Shakshuka",
+  "description": "Eggs poached directly in a spiced tomato and pepper sauce — a Middle Eastern breakfast staple eaten straight from the pan.",
+  "orgURL": "https://en.wikipedia.org/wiki/Shakshouka",
+  "recipeYield": "2 servings",
+  "recipeServings": 2,
+  "prepTime": "PT10M",
+  "cookTime": "PT20M",
+  "totalTime": "PT30M",
+  "recipeCategory": [{"name": "Mediterranean", "slug": "mediterranean"}],
+  "tags": [{"name": "eggs", "slug": "eggs"}, {"name": "vegetarian", "slug": "vegetarian"}, {"name": "breakfast", "slug": "breakfast"}],
+  "recipeIngredient": [
+    {"display": "4 large eggs"},
+    {"display": "2 tbsp olive oil"},
+    {"display": "1 large onion, finely chopped"},
+    {"display": "1 red pepper, diced"},
+    {"display": "4 garlic cloves, sliced"},
+    {"display": "1 tsp cumin seeds"},
+    {"display": "1 tsp smoked paprika"},
+    {"display": "½ tsp chilli flakes"},
+    {"display": "400g can chopped tomatoes"},
+    {"display": "Salt and pepper to taste"},
+    {"display": "Fresh coriander or parsley, to garnish"},
+    {"display": "Crusty bread or pita, to serve"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Heat olive oil in a wide, oven-safe frying pan over medium heat. Fry cumin seeds for 30 seconds until fragrant.", "ingredientReferences": []},
+    {"title": "", "text": "Add onion and pepper. Cook 8 minutes until soft. Add garlic, paprika, and chilli flakes; cook 1 minute.", "ingredientReferences": []},
+    {"title": "", "text": "Pour in tomatoes, season, and simmer for 10 minutes until sauce thickens.", "ingredientReferences": []},
+    {"title": "", "text": "Make 4 wells in the sauce. Crack an egg into each well. Cover and cook over low heat for 5–7 minutes until whites are set but yolks still runny.", "ingredientReferences": []},
+    {"title": "", "text": "Scatter with herbs and serve straight from the pan with bread.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Variations", "text": "Add crumbled feta, merguez sausage, or a dollop of harissa for extra richness."}]
+}

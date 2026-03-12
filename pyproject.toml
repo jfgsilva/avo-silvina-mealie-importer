@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avo-silvina-mealie-importer"
+version = "0.1.0"
+description = "Bulk-import Portuguese and Mediterranean recipes into Mealie"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.31",
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    "tenacity>=8.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "responses>=0.25",
+]
+
+[project.scripts]
+mealie-importer = "importer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["importer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v"
+
+[tool.coverage.run]
+source = ["importer"]

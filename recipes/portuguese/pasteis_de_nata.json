@@ -1,0 +1,32 @@
+{
+  "name": "Pastéis de Nata",
+  "description": "Portugal's iconic custard tarts with a flaky pastry shell and creamy, slightly scorched custard filling.",
+  "orgURL": "https://en.wikipedia.org/wiki/Pastel_de_nata",
+  "recipeYield": "12 tarts",
+  "recipeServings": 12,
+  "prepTime": "PT30M",
+  "cookTime": "PT15M",
+  "totalTime": "PT45M",
+  "recipeCategory": [{"name": "Portuguese", "slug": "portuguese"}],
+  "tags": [{"name": "dessert", "slug": "dessert"}, {"name": "pastry", "slug": "pastry"}, {"name": "traditional", "slug": "traditional"}],
+  "recipeIngredient": [
+    {"display": "250g ready-made puff pastry"},
+    {"display": "300ml whole milk"},
+    {"display": "150ml double cream"},
+    {"display": "150g caster sugar"},
+    {"display": "4 egg yolks"},
+    {"display": "2 tbsp plain flour"},
+    {"display": "1 cinnamon stick"},
+    {"display": "Zest of 1 lemon"},
+    {"display": "Ground cinnamon and icing sugar, to serve"}
+  ],
+  "recipeInstructions": [
+    {"title": "", "text": "Preheat oven to 250°C / 230°C fan. Lightly grease a 12-hole muffin tin.", "ingredientReferences": []},
+    {"title": "", "text": "Roll the puff pastry into a tight log. Cut into 12 rounds and press each into the muffin holes, pushing up the sides to form a cup.", "ingredientReferences": []},
+    {"title": "", "text": "In a saucepan, heat milk, cream, cinnamon stick, and lemon zest to just below boiling. Remove from heat.", "ingredientReferences": []},
+    {"title": "", "text": "Whisk sugar, flour, and egg yolks together. Gradually pour in the hot milk, whisking constantly. Remove cinnamon and zest.", "ingredientReferences": []},
+    {"title": "", "text": "Fill the pastry cups to just below the rim. Bake for 12–15 minutes until the pastry is golden and the custard is speckled with dark spots.", "ingredientReferences": []},
+    {"title": "", "text": "Cool slightly then dust with icing sugar and ground cinnamon. Best eaten warm.", "ingredientReferences": []}
+  ],
+  "notes": [{"title": "Authentic touch", "text": "The dark scorched spots on the custard are traditional and desirable — don't take them out too early."}]
+}
