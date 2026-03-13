@@ -38,6 +38,11 @@ def main() -> None:
         action="store_false",
         help="Re-import recipes even if they already exist in Mealie.",
     )
+    parser.add_argument(
+        "--url",
+        metavar="URL",
+        help="Import a single recipe from this URL via Mealie's scraper.",
+    )
 
     args = parser.parse_args()
 
@@ -48,4 +53,8 @@ def main() -> None:
         sys.exit(1)
 
     runner = Runner(config=config, dry_run=args.dry_run, skip_existing=args.skip_existing)
-    runner.run(cuisine=args.cuisine, source=args.source)
+
+    if args.url:
+        runner.run_single_url(args.url)
+    else:
+        runner.run(cuisine=args.cuisine, source=args.source)

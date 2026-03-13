@@ -48,6 +48,21 @@ class Runner:
             stats["failed"],
         )
 
+    def run_single_url(self, url: str) -> None:
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s %(levelname)-8s %(message)s",
+            datefmt="%H:%M:%S",
+        )
+        if self._dry_run:
+            logger.info("DRY RUN — would import %s", url)
+            return
+        try:
+            slug = self._client.import_from_url(url)
+            logger.info("OK   %s → %s", url, slug)
+        except Exception as exc:
+            logger.warning("FAIL %s: %s", url, exc)
+
     # ── URL import ────────────────────────────────────────────────────────────
 
     def _run_urls(

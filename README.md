@@ -31,6 +31,9 @@ python -m importer --dry-run
 
 # Re-import even if the recipe already exists
 python -m importer --no-skip-existing
+
+# Import a single recipe from a URL
+python -m importer --url https://example.com/recipe
 ```
 
 ## Docker / Podman
