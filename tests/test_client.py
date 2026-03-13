@@ -101,6 +101,40 @@ def test_import_from_json_success(client):
 
 
 @responses_lib.activate
+def test_upload_image_from_url(client):
+    responses_lib.add(
+        responses_lib.GET,
+        "https://example.com/photo.jpg",
+        body=b"\xff\xd8\xff\xe0",
+        headers={"Content-Type": "image/jpeg"},
+        status=200,
+    )
+    responses_lib.add(
+        responses_lib.PUT,
+        f"{BASE}/api/recipes/my-recipe/image",
+        status=200,
+    )
+
+    client.upload_image_from_url("my-recipe", "https://example.com/photo.jpg")
+
+    put_call = next(c for c in responses_lib.calls if c.request.method == "PUT")
+    assert "/api/recipes/my-recipe/image" in put_call.request.url
+    assert "multipart" in put_call.request.headers.get("Content-Type", "")
+    assert b"extension" in put_call.request.body
+    assert b"jpg" in put_call.request.body
+
+
+@responses_lib.activate
+def test_upload_image_from_url_raises_on_bad_image(client):
+    responses_lib.add(
+        responses_lib.GET, "https://example.com/bad.jpg", status=404
+    )
+    import requests
+    with pytest.raises(requests.HTTPError):
+        client.upload_image_from_url("my-recipe", "https://example.com/bad.jpg")
+
+
+@responses_lib.activate
 def test_import_from_json_patch_failure_cleans_up(client):
     """When PATCH fails, the skeleton should be deleted."""
     responses_lib.add(

@@ -1,6 +1,9 @@
 import logging
+import re
 import time
 from typing import Any, Dict, Optional, Set
+
+import requests as _requests
 
 from importer.client import MealieClient
 from importer.config import Config
@@ -48,6 +51,41 @@ class Runner:
             stats["failed"],
         )
 
+    def run_delete_all(self, yes: bool = False) -> None:
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s %(levelname)-8s %(message)s",
+            datefmt="%H:%M:%S",
+        )
+        slugs = self._client.get_existing_slugs()
+        if not slugs:
+            logger.info("No recipes found in Mealie.")
+            return
+
+        print(f"Found {len(slugs)} recipes in Mealie.")
+        if not yes:
+            answer = input("Delete all recipes? This cannot be undone. [y/N] ").strip().lower()
+            if answer != "y":
+                print("Aborted.")
+                return
+
+        if self._dry_run:
+            logger.info("DRY RUN — would delete %d recipes.", len(slugs))
+            return
+
+        deleted = 0
+        failed = 0
+        for slug in slugs:
+            try:
+                self._client.delete_recipe(slug)
+                logger.info("DEL  %s", slug)
+                deleted += 1
+            except Exception as exc:
+                logger.warning("FAIL %s: %s", slug, exc)
+                failed += 1
+
+        logger.info("Done. deleted=%d  failed=%d", deleted, failed)
+
     def run_single_url(self, url: str) -> None:
         logging.basicConfig(
             level=logging.INFO,
@@ -84,6 +122,7 @@ class Runner:
                 logger.info("OK   [%s] %s → %s", recipe_cuisine, url, slug)
                 existing.add(slug)
                 stats["imported"] += 1
+                self._upload_recipe_image(slug, {"orgURL": url})
             except Exception as exc:
                 logger.warning("FAIL [%s] %s: %s", recipe_cuisine, url, exc)
                 stats["failed"] += 1
@@ -121,9 +160,42 @@ class Runner:
                 logger.info("OK   [%s] %r → %s", recipe_cuisine, name, slug)
                 existing.add(slug)
                 stats["imported"] += 1
+                self._upload_recipe_image(slug, recipe)
             except Exception as exc:
                 logger.warning("FAIL [%s] %r: %s", recipe_cuisine, name, exc)
                 stats["failed"] += 1
+
+
+    def _upload_recipe_image(self, slug: str, recipe: Dict[str, Any]) -> None:
+        image_url = recipe.get("image") or _fetch_og_image(recipe.get("orgURL", ""))
+        if not image_url:
+            return
+        try:
+            self._client.upload_image_from_url(slug, image_url)
+            logger.info("IMG  %s → uploaded image", slug)
+        except Exception as exc:
+            logger.warning("IMG  %s: image upload failed: %s", slug, exc)
+
+
+def _fetch_og_image(url: str) -> str:
+    """Return the og:image URL from a web page, or empty string on failure."""
+    if not url:
+        return ""
+    try:
+        resp = _requests.get(
+            url, timeout=10, headers={"User-Agent": "mealie-importer/1.0"}
+        )
+        resp.raise_for_status()
+        for pattern in [
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\'](https?://[^"\']+)["\']',
+            r'<meta[^>]+content=["\'](https?://[^"\']+)["\'][^>]+property=["\']og:image["\']',
+        ]:
+            m = re.search(pattern, resp.text)
+            if m:
+                return m.group(1)
+        return ""
+    except Exception:
+        return ""
 
 
 def _slugify(name: str) -> str:

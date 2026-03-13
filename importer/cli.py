@@ -43,6 +43,16 @@ def main() -> None:
         metavar="URL",
         help="Import a single recipe from this URL via Mealie's scraper.",
     )
+    parser.add_argument(
+        "--delete-all",
+        action="store_true",
+        help="Delete ALL recipes from Mealie. Prompts for confirmation unless --yes is given.",
+    )
+    parser.add_argument(
+        "--yes", "-y",
+        action="store_true",
+        help="Skip confirmation prompt (use with --delete-all).",
+    )
 
     args = parser.parse_args()
 
@@ -54,7 +64,9 @@ def main() -> None:
 
     runner = Runner(config=config, dry_run=args.dry_run, skip_existing=args.skip_existing)
 
-    if args.url:
+    if args.delete_all:
+        runner.run_delete_all(yes=args.yes)
+    elif args.url:
         runner.run_single_url(args.url)
     else:
         runner.run(cuisine=args.cuisine, source=args.source)

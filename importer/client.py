@@ -90,5 +90,24 @@ class MealieClient:
 
         return slug
 
+    def upload_image_from_url(self, slug: str, image_url: str) -> None:
+        """Download image_url and upload it as the cover image for recipe slug."""
+        img_resp = requests.get(
+            image_url, timeout=15, headers={"User-Agent": "mealie-importer/1.0"}
+        )
+        img_resp.raise_for_status()
+        content_type = img_resp.headers.get("Content-Type", "image/jpeg").split(";")[0].strip()
+        ext = {"image/jpeg": "jpg", "image/png": "png", "image/webp": "webp"}.get(
+            content_type, "jpg"
+        )
+        resp = self._session.put(
+            self._url(f"/api/recipes/{slug}/image"),
+            files={"image": (f"cover.{ext}", img_resp.content, content_type)},
+            data={"extension": ext},
+            headers={"Content-Type": None},
+            timeout=30,
+        )
+        resp.raise_for_status()
+
     def delete_recipe(self, slug: str) -> None:
         self._request("DELETE", f"/api/recipes/{slug}")
