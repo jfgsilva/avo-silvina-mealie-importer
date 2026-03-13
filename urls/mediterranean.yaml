@@ -1,42 +1,12 @@
 cuisine: mediterranean
 recipes:
-  - url: https://www.themediterraneandish.com/gazpacho-recipe/
-    note: "Cold tomato soup"
   - url: https://www.themediterraneandish.com/moussaka-recipe/
     note: "Greek baked eggplant and meat"
-  - url: https://www.themediterraneandish.com/easy-shakshuka-recipe/
-    note: "Eggs poached in tomato sauce"
-  - url: https://www.themediterraneandish.com/tabbouleh-recipe/
-    note: "Parsley and bulgur salad"
-  - url: https://www.themediterraneandish.com/hummus-recipe/
-    note: "Chickpea dip"
-  - url: https://www.themediterraneandish.com/greek-salad-recipe/
-    note: "Classic Greek salad"
   - url: https://www.themediterraneandish.com/spanakopita-recipe/
     note: "Spinach and feta pie"
-  - url: https://www.themediterraneandish.com/falafel-recipe/
-    note: "Fried chickpea fritters"
   - url: https://www.themediterraneandish.com/chicken-shawarma/
     note: "Marinated grilled chicken"
-  - url: https://www.themediterraneandish.com/lamb-kofta/
-    note: "Spiced lamb meatballs"
   - url: https://www.themediterraneandish.com/fattoush-salad/
     note: "Bread salad with sumac dressing"
   - url: https://www.themediterraneandish.com/baba-ganoush/
     note: "Roasted eggplant dip"
-  - url: https://www.themediterraneandish.com/dolmades/
-    note: "Stuffed grape leaves"
-  - url: https://www.themediterraneandish.com/tzatziki-recipe/
-    note: "Cucumber yogurt sauce"
-  - url: https://www.themediterraneandish.com/paella-recipe/
-    note: "Spanish saffron rice"
-  - url: https://www.themediterraneandish.com/ratatouille/
-    note: "Provençal vegetable stew"
-  - url: https://www.themediterraneandish.com/risotto-recipe/
-    note: "Italian creamy rice"
-  - url: https://www.themediterraneandish.com/pita-bread-recipe/
-    note: "Homemade pita bread"
-  - url: https://www.themediterraneandish.com/baklava-recipe/
-    note: "Honey and nut pastry"
-  - url: https://www.themediterraneandish.com/lemon-olive-oil-cake/
-    note: "Citrus olive oil cake"

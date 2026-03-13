@@ -1,52 +1,359 @@
 cuisine: portuguese
 recipes:
+  # --- previously imported (working) ---
   - url: https://foodfromportugal.com/recipes/caldo-verde/
     note: "Classic kale soup"
-  - url: https://foodfromportugal.com/recipes/bacalhau-a-bras/
-    note: "Shredded salt cod with eggs and potatoes"
-  - url: https://foodfromportugal.com/recipes/pasteis-de-nata/
-    note: "Custard tarts"
-  - url: https://foodfromportugal.com/recipes/arroz-de-pato/
-    note: "Duck rice"
-  - url: https://foodfromportugal.com/recipes/cozido-a-portuguesa/
-    note: "Portuguese boiled dinner"
-  - url: https://foodfromportugal.com/recipes/cataplana-de-marisco/
-    note: "Shellfish cataplana"
-  - url: https://foodfromportugal.com/recipes/francesinha/
-    note: "Porto sandwich"
-  - url: https://foodfromportugal.com/recipes/acorda-de-mariscos/
-    note: "Seafood bread soup"
-  - url: https://foodfromportugal.com/recipes/piri-piri-chicken/
-    note: "Piri piri grilled chicken"
   - url: https://foodfromportugal.com/recipes/bifanas/
     note: "Pork sandwiches"
-  - url: https://foodfromportugal.com/recipes/amêijoas-a-bulhao-pato/
-    note: "Clams in garlic-coriander sauce"
-  - url: https://foodfromportugal.com/recipes/sardinha-assada/
-    note: "Grilled sardines"
-  - url: https://foodfromportugal.com/recipes/sopa-de-peixe/
-    note: "Fish soup"
-  - url: https://foodfromportugal.com/recipes/lombo-de-porco/
-    note: "Roast pork loin"
   - url: https://foodfromportugal.com/recipes/rabanadas/
     note: "Portuguese French toast"
   - url: https://foodfromportugal.com/recipes/arroz-doce/
     note: "Rice pudding"
-  - url: https://foodfromportugal.com/recipes/bolo-de-mel/
-    note: "Molasses cake"
   - url: https://foodfromportugal.com/recipes/serradura/
     note: "Sawdust pudding"
-  - url: https://foodfromportugal.com/recipes/bica/
-    note: "Espresso preparation guide"
-  - url: https://foodfromportugal.com/recipes/favas-com-chourico/
-    note: "Broad beans with chorizo"
-  - url: https://foodfromportugal.com/recipes/carne-de-porco-a-alentejana/
-    note: "Pork with clams, Alentejo style"
-  - url: https://foodfromportugal.com/recipes/bolo-de-bolacha/
-    note: "Biscuit cake"
-  - url: https://foodfromportugal.com/recipes/polvo-a-lagareiro/
-    note: "Octopus with olive oil and potatoes"
-  - url: https://foodfromportugal.com/recipes/sopa-de-grao/
-    note: "Chickpea soup"
   - url: https://foodfromportugal.com/recipes/migas/
     note: "Bread migas"
+
+  # --- chicken ---
+  - url: https://www.foodfromportugal.com/recipes/portuguese-peri-peri-chicken/
+    note: "Portuguese peri peri chicken"
+  - url: https://www.foodfromportugal.com/recipes/air-fryer-chicken-drumsticks/
+    note: "Air fryer chicken drumsticks"
+  - url: https://www.foodfromportugal.com/recipes/roasted-chicken-legs-mustard/
+    note: "Roasted chicken legs with mustard"
+  - url: https://www.foodfromportugal.com/recipes/baked-chicken-steaks-lemon/
+    note: "Baked chicken steaks with lemon"
+  - url: https://www.foodfromportugal.com/recipes/chicken-jardineira/
+    note: "Chicken jardineira stew"
+  - url: https://www.foodfromportugal.com/recipes/honey-baked-chicken-drumsticks/
+    note: "Honey baked chicken drumsticks"
+  - url: https://www.foodfromportugal.com/recipes/creamy-chicken-drumsticks/
+    note: "Creamy chicken drumsticks"
+  - url: https://www.foodfromportugal.com/recipes/chicken-stew-peas-carrot/
+    note: "Chicken stew with peas and carrot"
+  - url: https://www.foodfromportugal.com/recipes/chicken-bras/
+    note: "Chicken a brás"
+  - url: https://www.foodfromportugal.com/recipes/easy-chicken-curry/
+    note: "Easy chicken curry"
+  - url: https://www.foodfromportugal.com/recipes/chicken-soup-rice/
+    note: "Chicken soup with rice"
+  - url: https://www.foodfromportugal.com/recipes/baked-chicken-rice-chourico/
+    note: "Baked chicken with rice and chouriço"
+  - url: https://www.foodfromportugal.com/recipes/chicken-soup/
+    note: "Chicken soup"
+  - url: https://www.foodfromportugal.com/recipes/stewed-chicken/
+    note: "Stewed chicken"
+  - url: https://www.foodfromportugal.com/recipes/stewed-chicken-legs/
+    note: "Stewed chicken legs"
+  - url: https://www.foodfromportugal.com/recipes/baked-chicken-lemon-garlic-sauce/
+    note: "Baked chicken with lemon garlic sauce"
+  - url: https://www.foodfromportugal.com/recipes/easy-baked-honey-garlic-chicken/
+    note: "Easy baked honey garlic chicken"
+  - url: https://www.foodfromportugal.com/recipes/spicy-roasted-chicken-legs/
+    note: "Spicy roasted chicken legs"
+  - url: https://www.foodfromportugal.com/recipes/chicken-stew-spaghetti/
+    note: "Chicken stew with spaghetti"
+  - url: https://www.foodfromportugal.com/recipes/chicken-stew/
+    note: "Chicken stew"
+  - url: https://www.foodfromportugal.com/recipes/chicken-fricassee/
+    note: "Chicken fricassee"
+  - url: https://www.foodfromportugal.com/recipes/homemade-chicken-nuggets/
+    note: "Homemade chicken nuggets"
+  - url: https://www.foodfromportugal.com/recipes/stewed-chicken-rice/
+    note: "Stewed chicken with rice"
+  - url: https://www.foodfromportugal.com/recipes/oven-baked-chicken-leg-quarters/
+    note: "Oven baked chicken leg quarters"
+  - url: https://www.foodfromportugal.com/recipes/baked-chicken-breast-lemon-mustard-sauce/
+    note: "Baked chicken breast with lemon mustard sauce"
+  - url: https://www.foodfromportugal.com/recipes/chicken-oven-orange/
+    note: "Oven chicken with orange"
+  - url: https://www.foodfromportugal.com/recipes/chicken-pie/
+    note: "Chicken pie"
+  - url: https://www.foodfromportugal.com/recipes/mashed-potato-chicken-casserole/
+    note: "Mashed potato chicken casserole"
+  - url: https://www.foodfromportugal.com/recipes/easy-chicken-potato-stew/
+    note: "Easy chicken and potato stew"
+  - url: https://www.foodfromportugal.com/recipes/chicken-stew-red-wine-rosemary/
+    note: "Chicken stew with red wine and rosemary"
+
+  # --- fish ---
+  - url: https://www.foodfromportugal.com/recipes/air-fryer-tuna-balls/
+    note: "Air fryer tuna balls"
+  - url: https://www.foodfromportugal.com/recipes/roast-fish-padeiro/
+    note: "Roast fish padeiro style"
+  - url: https://www.foodfromportugal.com/recipes/tuna-cream/
+    note: "Tuna cream"
+  - url: https://www.foodfromportugal.com/recipes/easy-baked-salmon-lemon-mustard-sauce/
+    note: "Easy baked salmon with lemon mustard sauce"
+  - url: https://www.foodfromportugal.com/recipes/hake-loins-coriander/
+    note: "Hake loins with coriander"
+  - url: https://www.foodfromportugal.com/recipes/easy-pasta-gratin-tuna/
+    note: "Easy pasta gratin with tuna"
+  - url: https://www.foodfromportugal.com/recipes/octopus-rice/
+    note: "Octopus rice"
+  - url: https://www.foodfromportugal.com/recipes/cuttlefish-stew-potatoes/
+    note: "Cuttlefish stew with potatoes"
+  - url: https://www.foodfromportugal.com/recipes/easy-baked-mashed-potatoes-tuna/
+    note: "Easy baked mashed potatoes with tuna"
+  - url: https://www.foodfromportugal.com/recipes/cuttlefish-lagareiro/
+    note: "Cuttlefish lagareiro"
+  - url: https://www.foodfromportugal.com/recipes/fish-tomato-sauce-green-pepper/
+    note: "Fish in tomato sauce with green pepper"
+  - url: https://www.foodfromportugal.com/recipes/tuna-fritters/
+    note: "Tuna fritters"
+  - url: https://www.foodfromportugal.com/recipes/tuna-lasagna/
+    note: "Tuna lasagna"
+  - url: https://www.foodfromportugal.com/recipes/oven-baked-hake/
+    note: "Oven baked hake"
+  - url: https://www.foodfromportugal.com/recipes/baked-fish-lemon-thyme/
+    note: "Baked fish with lemon and thyme"
+  - url: https://www.foodfromportugal.com/recipes/hake-gomes-sa/
+    note: "Hake Gomes de Sá style"
+  - url: https://www.foodfromportugal.com/recipes/hake-fillets-lagareiro/
+    note: "Hake fillets lagareiro"
+  - url: https://www.foodfromportugal.com/recipes/sauteed-salmon-spaghetti/
+    note: "Sautéed salmon with spaghetti"
+  - url: https://www.foodfromportugal.com/recipes/baked-mashed-potatoes-tuna-egg/
+    note: "Baked mashed potatoes with tuna and egg"
+  - url: https://www.foodfromportugal.com/recipes/cuttlefish-rice/
+    note: "Cuttlefish rice"
+  - url: https://www.foodfromportugal.com/recipes/tuna-bras-ten-minutes/
+    note: "Tuna a brás in ten minutes"
+  - url: https://www.foodfromportugal.com/recipes/baked-dogfish-cherry-tomato/
+    note: "Baked dogfish with cherry tomato"
+  - url: https://www.foodfromportugal.com/recipes/tuna-pie-potato-sausage/
+    note: "Tuna pie with potato and sausage"
+  - url: https://www.foodfromportugal.com/recipes/salmon-caramelized-apple/
+    note: "Salmon with caramelized apple"
+  - url: https://www.foodfromportugal.com/recipes/easy-baked-penne-pasta-tuna-portuguese-cornbread/
+    note: "Easy baked penne with tuna and Portuguese cornbread"
+  - url: https://www.foodfromportugal.com/recipes/tuna-chourico-pie/
+    note: "Tuna and chouriço pie"
+  - url: https://www.foodfromportugal.com/recipes/fish-rice-chorizo/
+    note: "Fish rice with chorizo"
+  - url: https://www.foodfromportugal.com/recipes/baked-pasta-tuna-ham/
+    note: "Baked pasta with tuna and ham"
+  - url: https://www.foodfromportugal.com/recipes/fried-horse-mackerel-tomato-rice/
+    note: "Fried horse mackerel with tomato rice"
+  - url: https://www.foodfromportugal.com/recipes/baked-rice-dogfish-chourico/
+    note: "Baked rice with dogfish and chouriço"
+
+  # --- meat ---
+  - url: https://www.foodfromportugal.com/recipes/easy-oven-baked-pork-bites-potatoes/
+    note: "Easy oven baked pork bites with potatoes"
+  - url: https://www.foodfromportugal.com/recipes/air-fryer-pork-bites/
+    note: "Air fryer pork bites"
+  - url: https://www.foodfromportugal.com/recipes/goatling-our-fashion/
+    note: "Goatling our fashion"
+  - url: https://www.foodfromportugal.com/recipes/meat-bras/
+    note: "Meat a brás"
+  - url: https://www.foodfromportugal.com/recipes/pork-loin-beer-sauce/
+    note: "Pork loin in beer sauce"
+  - url: https://www.foodfromportugal.com/recipes/chourico-rice/
+    note: "Chouriço rice"
+  - url: https://www.foodfromportugal.com/recipes/meat-cannelloni/
+    note: "Meat cannelloni"
+  - url: https://www.foodfromportugal.com/recipes/quick-easy-air-fryer-meatballs/
+    note: "Quick easy air fryer meatballs"
+  - url: https://www.foodfromportugal.com/recipes/roasted-pork-chops-lemon/
+    note: "Roasted pork chops with lemon"
+  - url: https://www.foodfromportugal.com/recipes/fried-steaks-fried-egg/
+    note: "Fried steaks with fried egg"
+  - url: https://www.foodfromportugal.com/recipes/easy-lasagna-casserole/
+    note: "Easy lasagna casserole"
+  - url: https://www.foodfromportugal.com/recipes/stewed-beef-pasta/
+    note: "Stewed beef with pasta"
+  - url: https://www.foodfromportugal.com/recipes/sausage-bras/
+    note: "Sausage a brás"
+  - url: https://www.foodfromportugal.com/recipes/steaks-creamy-sauce/
+    note: "Steaks in creamy sauce"
+  - url: https://www.foodfromportugal.com/recipes/pork-loin-spices/
+    note: "Pork loin with spices"
+  - url: https://www.foodfromportugal.com/recipes/turkey-steaks-lemon-honey-cinnamon/
+    note: "Turkey steaks with lemon honey and cinnamon"
+  - url: https://www.foodfromportugal.com/recipes/baked-pork-loin-apple-rosemary/
+    note: "Baked pork loin with apple and rosemary"
+  - url: https://www.foodfromportugal.com/recipes/meat-lasagna/
+    note: "Meat lasagna"
+  - url: https://www.foodfromportugal.com/recipes/roasted-pork-loin-chestnuts/
+    note: "Roasted pork loin with chestnuts"
+  - url: https://www.foodfromportugal.com/recipes/roasted-turkey-leg-honey-spices/
+    note: "Roasted turkey leg with honey and spices"
+
+  # --- pasta ---
+  - url: https://www.foodfromportugal.com/recipes/tagliatelle-tuna-egg/
+    note: "Tagliatelle with tuna and egg"
+  - url: https://www.foodfromportugal.com/recipes/easy-parmesan-pasta-cherry-tomato/
+    note: "Easy parmesan pasta with cherry tomato"
+  - url: https://www.foodfromportugal.com/recipes/tuna-macaroni/
+    note: "Tuna macaroni"
+  - url: https://www.foodfromportugal.com/recipes/easy-bacon-carbonara/
+    note: "Easy bacon carbonara"
+  - url: https://www.foodfromportugal.com/recipes/shrimp-macaroni/
+    note: "Shrimp macaroni"
+  - url: https://www.foodfromportugal.com/recipes/beef-macaroni/
+    note: "Beef macaroni"
+  - url: https://www.foodfromportugal.com/recipes/stewed-rabbit-spaghetti/
+    note: "Stewed rabbit with spaghetti"
+  - url: https://www.foodfromportugal.com/recipes/spaghetti-poached-eggs-tomato-sauce/
+    note: "Spaghetti with poached eggs in tomato sauce"
+  - url: https://www.foodfromportugal.com/recipes/simple-spaghetti/
+    note: "Simple spaghetti"
+  - url: https://www.foodfromportugal.com/recipes/stewed-pork-spaghetti-shrimp/
+    note: "Stewed pork spaghetti with shrimp"
+  - url: https://www.foodfromportugal.com/recipes/fried-chicken-breast-bacon-tagliatelle/
+    note: "Fried chicken breast with bacon tagliatelle"
+  - url: https://www.foodfromportugal.com/recipes/pasta-pork-peppers/
+    note: "Pasta with pork and peppers"
+  - url: https://www.foodfromportugal.com/recipes/spaghetti-tuna-corn-mushrooms/
+    note: "Spaghetti with tuna corn and mushrooms"
+  - url: https://www.foodfromportugal.com/recipes/spaghetti-spinach/
+    note: "Spaghetti with spinach"
+  - url: https://www.foodfromportugal.com/recipes/spaghetti-dogfish-shrimp/
+    note: "Spaghetti with dogfish and shrimp"
+  - url: https://www.foodfromportugal.com/recipes/pasta-cod-shrimp/
+    note: "Pasta with cod and shrimp"
+  - url: https://www.foodfromportugal.com/recipes/baked-spaghetti-meat/
+    note: "Baked spaghetti with meat"
+  - url: https://www.foodfromportugal.com/recipes/baked-spaghetti-tuna/
+    note: "Baked spaghetti with tuna"
+  - url: https://www.foodfromportugal.com/recipes/spaghetti-turkey-peas/
+    note: "Spaghetti with turkey and peas"
+
+  # --- rice ---
+  - url: https://www.foodfromportugal.com/recipes/portuguese-rice-pudding-kenwood/
+    note: "Portuguese rice pudding Kenwood style"
+  - url: https://www.foodfromportugal.com/recipes/quick-easy-curry-rice/
+    note: "Quick easy curry rice"
+  - url: https://www.foodfromportugal.com/recipes/rice-shrimp/
+    note: "Rice with shrimp"
+  - url: https://www.foodfromportugal.com/recipes/easy-green-peas-rice/
+    note: "Easy green peas rice"
+  - url: https://www.foodfromportugal.com/recipes/quick-easy-carrot-rice/
+    note: "Quick easy carrot rice"
+  - url: https://www.foodfromportugal.com/recipes/beef-stew-rice/
+    note: "Beef stew with rice"
+  - url: https://www.foodfromportugal.com/recipes/lemon-rice/
+    note: "Lemon rice"
+  - url: https://www.foodfromportugal.com/recipes/easy-turkey-sausage-rice/
+    note: "Easy turkey sausage rice"
+  - url: https://www.foodfromportugal.com/recipes/simple-shrimp-rice/
+    note: "Simple shrimp rice"
+  - url: https://www.foodfromportugal.com/recipes/tomato-rice-peppers/
+    note: "Tomato rice with peppers"
+  - url: https://www.foodfromportugal.com/recipes/simple-chicken-rice/
+    note: "Simple chicken rice"
+  - url: https://www.foodfromportugal.com/recipes/creamy-rice-pudding/
+    note: "Creamy rice pudding"
+  - url: https://www.foodfromportugal.com/recipes/pork-stew-rice-carrot/
+    note: "Pork stew with rice and carrot"
+  - url: https://www.foodfromportugal.com/recipes/chicken-carrot-rice/
+    note: "Chicken and carrot rice"
+  - url: https://www.foodfromportugal.com/recipes/cod-rice-poached-eggs/
+    note: "Cod rice with poached eggs"
+  - url: https://www.foodfromportugal.com/recipes/pork-ribs-stew-rice/
+    note: "Pork ribs stew with rice"
+  - url: https://www.foodfromportugal.com/recipes/steak-rice/
+    note: "Steak with rice"
+  - url: https://www.foodfromportugal.com/recipes/baked-rice-cod-chourico/
+    note: "Baked rice with cod and chouriço"
+  - url: https://www.foodfromportugal.com/recipes/rice-bacon-peppers/
+    note: "Rice with bacon and peppers"
+  - url: https://www.foodfromportugal.com/recipes/fried-veal-rice/
+    note: "Fried veal with rice"
+  - url: https://www.foodfromportugal.com/recipes/tuna-bacon-rice/
+    note: "Tuna and bacon rice"
+
+  # --- salt-cod ---
+  - url: https://www.foodfromportugal.com/recipes/cod-fish-pie-mashed-potato/
+    note: "Cod fish pie with mashed potato"
+  - url: https://www.foodfromportugal.com/recipes/traditional-baked-cod/
+    note: "Traditional baked cod"
+  - url: https://www.foodfromportugal.com/recipes/cod-bacon-pie/
+    note: "Cod and bacon pie"
+  - url: https://www.foodfromportugal.com/recipes/cod-stew/
+    note: "Cod stew"
+  - url: https://www.foodfromportugal.com/recipes/homemade-salt-cod-cream/
+    note: "Homemade salt cod cream"
+  - url: https://www.foodfromportugal.com/recipes/salt-cod-fritters/
+    note: "Salt cod fritters"
+  - url: https://www.foodfromportugal.com/recipes/cod-fritters/
+    note: "Cod fritters (pataniscas)"
+  - url: https://www.foodfromportugal.com/recipes/baked-cod-potatoes/
+    note: "Baked cod with potatoes"
+  - url: https://www.foodfromportugal.com/recipes/baked-cod-potatoes-egg/
+    note: "Baked cod with potatoes and egg"
+  - url: https://www.foodfromportugal.com/recipes/cod-potatoes/
+    note: "Cod with potatoes"
+  - url: https://www.foodfromportugal.com/recipes/crepes-filled-cod-bacon/
+    note: "Crêpes filled with cod and bacon"
+  - url: https://www.foodfromportugal.com/recipes/roasted-cod-bacon-honey/
+    note: "Roasted cod with bacon and honey"
+  - url: https://www.foodfromportugal.com/recipes/cod-oven-egg-bechamel/
+    note: "Cod in the oven with egg and béchamel"
+  - url: https://www.foodfromportugal.com/recipes/cod-rice-spices/
+    note: "Cod rice with spices"
+  - url: https://www.foodfromportugal.com/recipes/cod-au-gratin/
+    note: "Cod au gratin"
+  - url: https://www.foodfromportugal.com/recipes/portuguese-cod-migas-poached-eggs/
+    note: "Portuguese cod migas with poached eggs"
+  - url: https://www.foodfromportugal.com/recipes/rice-cod-peas/
+    note: "Rice with cod and peas"
+  - url: https://www.foodfromportugal.com/recipes/traditional-cod/
+    note: "Traditional cod"
+  - url: https://www.foodfromportugal.com/recipes/cod-oven-shrimp-clams/
+    note: "Cod in the oven with shrimp and clams"
+  - url: https://www.foodfromportugal.com/recipes/cod-rice-clams/
+    note: "Cod rice with clams"
+  - url: https://www.foodfromportugal.com/recipes/cod-mayonnaise/
+    note: "Cod with mayonnaise"
+  - url: https://www.foodfromportugal.com/recipes/economic-cod-oven/
+    note: "Economic oven cod"
+  - url: https://www.foodfromportugal.com/recipes/cod-oven-portuguese-cornbread/
+    note: "Cod in the oven with Portuguese cornbread"
+  - url: https://www.foodfromportugal.com/recipes/cod-shrimp-pie/
+    note: "Cod and shrimp pie"
+  - url: https://www.foodfromportugal.com/recipes/baked-cod-potatoes-olive-oil-lemon/
+    note: "Baked cod with potatoes, olive oil and lemon"
+  - url: https://www.foodfromportugal.com/recipes/fried-cod-special-sauce/
+    note: "Fried cod with special sauce"
+  - url: https://www.foodfromportugal.com/recipes/baked-cod-tomato-potatoes/
+    note: "Baked cod with tomato and potatoes"
+
+  # --- seafood ---
+  - url: https://www.foodfromportugal.com/recipes/clams-bulhao-pato/
+    note: "Clams Bulhão Pato style"
+  - url: https://www.foodfromportugal.com/recipes/clams-bacon-garlic/
+    note: "Clams with bacon and garlic"
+  - url: https://www.foodfromportugal.com/recipes/pork-shrimp/
+    note: "Pork with shrimp"
+  - url: https://www.foodfromportugal.com/recipes/rice-shrimp-leek/
+    note: "Rice with shrimp and leek"
+  - url: https://www.foodfromportugal.com/recipes/clams-mustard/
+    note: "Clams with mustard"
+  - url: https://www.foodfromportugal.com/recipes/shrimp-pataniscas/
+    note: "Shrimp pataniscas fritters"
+  - url: https://www.foodfromportugal.com/recipes/portuguese-seafood-stew/
+    note: "Portuguese seafood stew"
+  - url: https://www.foodfromportugal.com/recipes/shrimp-puffs/
+    note: "Shrimp puffs"
+  - url: https://www.foodfromportugal.com/recipes/simple-shrimp/
+    note: "Simple shrimp"
+  - url: https://www.foodfromportugal.com/recipes/cockles-lemon-juice/
+    note: "Cockles with lemon juice"
+  - url: https://www.foodfromportugal.com/recipes/shrimp-rissoles/
+    note: "Shrimp rissoles"
+  - url: https://www.foodfromportugal.com/recipes/seafood-bread-soup-portuguese-cornbread/
+    note: "Seafood bread soup with Portuguese cornbread"
+  - url: https://www.foodfromportugal.com/recipes/seafood-bread-soup/
+    note: "Seafood bread soup"
+  - url: https://www.foodfromportugal.com/recipes/spaghetti-shrimps-seafood-delights/
+    note: "Spaghetti with shrimps and seafood delights"
+  - url: https://www.foodfromportugal.com/recipes/seafood-rice/
+    note: "Seafood rice"
+  - url: https://www.foodfromportugal.com/recipes/seafood-pasta-portuguese-style/
+    note: "Seafood pasta Portuguese style"
+  - url: https://www.foodfromportugal.com/recipes/seafood-white-beans/
+    note: "Seafood with white beans"
+  - url: https://www.foodfromportugal.com/recipes/fried-shrimps-mustard/
+    note: "Fried shrimps with mustard"
